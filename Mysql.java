@@ -12,7 +12,7 @@ public class Mysql {
 				 
 		    first_name varchar(40),
 		    last_name varchar(30),
-		    address varchar(50),
+		    address varchar(65),
 		    city varchar(30),
 		    state varchar(50),
 		    zip int,
