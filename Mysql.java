@@ -14,7 +14,7 @@ public class Mysql {
 		    last_name varchar(30),
 		    address varchar(50),
 		    city varchar(30),
-		    state varchar(40),
+		    state varchar(50),
 		    zip int,
 		    phone_number long,
 		    email varchar(20));
