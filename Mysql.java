@@ -37,6 +37,11 @@ public class Mysql {
 	     select count(state&city) from address_book;
 
 	     select * from address_book order by first_name;
+	     
+	     alter table address_book add column name varchar(45);
+
+	     update address_book set name = "Friend" where first_name = "Vikas";
+	 }
 
 	}
 
