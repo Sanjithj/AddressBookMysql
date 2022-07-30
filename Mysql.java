@@ -28,6 +28,10 @@ public class Mysql {
 	     update address_book set city="Arsikere" where first_name = "Sanjith";
 	     
 	     delete from address_book  where first_name = "Sanjith";
+	     
+	     select * from address_book where city = "Hassan" or state = "Karnataka";
+
+	     select count(state&city) from address_book;
 
 
 	}
