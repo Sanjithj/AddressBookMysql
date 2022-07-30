@@ -18,6 +18,11 @@ public class Mysql {
 		    zip int,
 		    phone_number long,
 		    email varchar(20));
+		 
+		 select * from address_book;
+		  
+		 insert into address_book values("Sanjith","Vallag","Rajkumar","Hassan","Karnataka",573103,9664564653,"sanjithj@gmail.com");
+
 	}
 
 }
