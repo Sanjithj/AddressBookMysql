@@ -22,6 +22,12 @@ public class Mysql {
 		 select * from address_book;
 		  
 		 insert into address_book values("Sanjith","Vallag","Rajkumar","Hassan","Karnataka",573103,9664564653,"sanjithj@gmail.com");
+		 insert into address_book values("Raju","Ramachandra",Rajkumar","Arsikere","Karnataka",565539,89414542591,"sagar@gmail.com");
+		   
+		 SET SQL_SAFE_UPDATES = 0;
+		 
+	     update address_book set city="Arsikere" where first_name = "Sanjith";
+
 
 	}
 
