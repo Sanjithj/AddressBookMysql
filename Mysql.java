@@ -41,6 +41,9 @@ public class Mysql {
 	     alter table address_book add column name varchar(45);
 
 	     update address_book set name = "Friend" where first_name = "Vikas";
+	     
+		 insert into address_book values("Sanjith","Vallag","Rajkumar","Hassan","Karnataka",573103,9664564653,"sanjithj@gmail.com","Friend","Family");
+		
 	 }
 
 	}
